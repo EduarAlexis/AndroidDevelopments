@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    xmlns:xmlns="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        xmlns:card_view="https://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:elevation="14dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_image"
+                android:src="@drawable/abc_btn_radio_material"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_text"
+                android:layout_toRightOf="@+id/iv_image"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_blah"
+                android:text="Another RecyclerView Fragment"
+                android:layout_below="@+id/tv_text"
+                android:layout_toRightOf="@+id/iv_image"
+                android:layout_toEndOf="@+id/iv_image"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
