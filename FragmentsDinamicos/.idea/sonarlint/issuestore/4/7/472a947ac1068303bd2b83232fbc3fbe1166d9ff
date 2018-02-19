@@ -1,0 +1,4 @@
+
+csquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(ºä¼Ð
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(„˜®’8öÔ–™,
+jsquid:UselessImportCheck"<Remove this unused import 'android.support.v4.app.Fragment'.(îñ«úÿÿÿÿ8ã“Ü™,
